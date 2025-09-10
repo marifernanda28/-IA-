@@ -54,10 +54,10 @@ function mostraPergunta() {
 }
 
 
-function mostraAlternativas() 
+
 
   for (const alternativa of perguntaAtual.alternativas) 
-
+function respostaSelecionada(opcaoSelecionada) {
 botaoAlternativas.textContent = alternativa;
   botao.addEventListener("click", () => respostaSelecionada(opcao));
 function respostaSelecionada(opcaoSelecionada) {
